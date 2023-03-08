@@ -2,7 +2,7 @@ import time
 
 def Start():
     
-    mode1 = input("Percentages: 1 \nTriangles: 2 \n> ")
+    mode1 = input("Percentages: 1 \nTriangles: 2 \nScience: 3 \n> ")
 
     if mode1 == "1":
         mode =  input("Calculate percentage: 1 \ncalculate with percentages: 2 \nCalculate with percentage increase: 3 \nCalculate with percentage decrease: 4 \nCalculate percentage increase: 5 \nCalculate percentage decrease: 6 \nCalculate percentage degree for pie chart: 7 \n> ")
@@ -113,6 +113,16 @@ def Start():
             roundNumber =  input("round > ")
 
             final = float(one)*9.81
+            print("answer is: " + str(round(final, int(roundNumber))) + "\n")
+            time.sleep(2)
+            Start()
+
+        if mode == "2":
+            one =  input("force > ")
+            two =  input("surface > ")
+            roundNumber =  input("round > ")
+
+            final = float(one)/float(two)
             print("answer is: " + str(round(final, int(roundNumber))) + "\n")
             time.sleep(2)
             Start()
