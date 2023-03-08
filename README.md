@@ -1,36 +1,36 @@
-Percentage and Math Calculator
-This is a Python program that can calculate various percentage and math problems. It includes options to calculate percentages, triangle measurements, and gravity/pressure values.
+# Mapy
 
-How to Use
-To use this program, simply run the Start() function. You will then be prompted to choose a mode:
+Mapy is a Python project for calculating triangles or percentages and more.
 
-Percentages (mode 1)
-Triangles (mode 2)
-Gravity/Pressure (mode 3)
-Percentages
-If you choose mode 1, you will be prompted to choose a sub-mode:
+## Installation
 
-Calculate percentage
-Calculate with percentages
-Calculate with percentage increase
-Calculate with percentage decrease
-Calculate percentage increase
-Calculate percentage decrease
-Calculate percentage degree for pie chart
-You can then enter the required information and the program will calculate the answer. The program will then wait for 2 seconds and start over, so you can continue making calculations.
+Just download the Source-code.zip from the newest release on the [releases page](https://github.com/Cybo3D/Mapy/releases).
 
-Triangles
-If you choose mode 2, you will be prompted to choose a sub-mode:
+## Usage
 
-Triangle diagonal side
-Pyramid diagonal side
-You can then enter the required information and the program will calculate the answer. The program will then wait for 2 seconds and start over, so you can continue making calculations.
+```python
+Percentages: 1 
+Triangles: 2 
+> 1
+Calculate percentage: 1 
+calculate with percentages: 2 
+Calculate with percentage increase: 3 
+Calculate with percentage decrease: 4 
+Calculate percentage increase: 5 
+Calculate percentage decrease: 6 
+Calculate percentage degree for pie chart: 7 
+> 1
+how much > 30
+total > 100
+round > 1
+answer is: 30.0
+```
 
-Gravity/Pressure
-If you choose mode 3, you will be prompted to choose a sub-mode:
+## Contributing
 
-Gravity
-Pressure
-You can then enter the required information and the program will calculate the answer. The program will then wait for 2 seconds and start over, so you can continue making calculations.
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
 
-Example Usage
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
