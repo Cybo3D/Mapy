@@ -8,7 +8,7 @@ Just download the Source-code.zip from the newest release on the [releases page]
 
 ## Usage
 
-```python
+```
 Percentages: 1 
 Triangles: 2 
 > 1
