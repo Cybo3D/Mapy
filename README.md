@@ -6,7 +6,7 @@ Mapy is a Python project for calculating triangles or percentages and more.
 
 Just download the Source-code.zip from the newest release on the [releases page](https://github.com/Cybo3D/Mapy/releases).
 
-## Usage
+## Usage UILess
 
 ```
 Percentages: 1 
@@ -25,6 +25,11 @@ total > 100
 round > 1
 answer is: 30.0
 ```
+## Usage UI
+use the tabs at the top to change the tabs at the bottom.
+the tabs lower will change wich calculater will be used.
+
+then just put in the input fields the values and press Calculate
 
 ## Contributing
 
